@@ -3,8 +3,7 @@
 **Ad-free YouTube VR for Meta Quest.** Sideload the APK, sign in, watch VR
 videos without pre-rolls, mid-rolls, overlays, or VR180 immersive ads.
 
-Based on YouTube VR Oculus `1.88.10` — the final build Google shipped
-before deprecating YouTube VR on Quest in March 2025.
+Based on YouTube VR Oculus `1.88.10` — shipped in March 2025.
 
 ---
 
@@ -95,8 +94,8 @@ The hash should match the one on the release page.
   key — the signature will never match Google's Play-signed original,
   and it will never pass Play Protect / Meta Store integrity. This is
   sideloading only.
-- Google deprecated YouTube VR for Quest in March 2025. Version
-  `1.88.10` is the final client. The patches freeze the client there;
+- YouTube VR for Quest in March 2025. Version
+  `1.88.10`. The patches freeze the client there;
   backend protocol drift at YouTube may eventually degrade playback
   independent of this project.
 - Modifying your account's ad-serving posture may be against
