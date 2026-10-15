@@ -28,7 +28,7 @@ Based on YouTube VR Oculus `1.88.10` — shipped in March 2025.
 | Device       | Status                        |
 |--------------|-------------------------------|
 | Quest 3      | Tested, works                 |
-| Quest 2      | Should work (same APK target) |
+| Quest 2      | Tested, works (Tested by a friend) |
 | Quest Pro    | Should work (same APK target) |
 | Quest 1      | Untested (device EoL)         |
 | Pico / other | Untested                      |
