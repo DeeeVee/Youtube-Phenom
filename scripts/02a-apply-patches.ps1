@@ -54,6 +54,13 @@ Edit-File (Join-Path $dec "res\values\strings.xml") `
     '<string name="youtube_vr_app_name">YouTube</string>' `
     '<string name="youtube_vr_app_name">Youtube Phenom</string>'
 
+# Also rewrite the FileProvider authority string resource that gets referenced
+# as @string/authorities in the manifest. Original value collides with the
+# installed YouTube VR, blocking coexistence with INSTALL_FAILED_CONFLICTING_PROVIDER.
+Edit-File (Join-Path $dec "res\values\strings.xml") `
+    '<string name="authorities">com.google.android.vr.inputmethod.fileprovider.youtube</string>' `
+    '<string name="authorities">com.phenom.ytvr.inputmethod.fileprovider</string>'
+
 #
 # Patch 2 — Repackage to com.phenom.ytvr
 #
